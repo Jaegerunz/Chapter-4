@@ -18,6 +18,8 @@ dollarValue=int(input("Total Dollar value of transactions?:"))
 #bonus calculations here
 
 productivityScore=(dollarValue/numTransactions)/ numShiftsWorked
+
+#assign productivityScore a value here
 if productivityScore <=30:
     employeeBonus=50.00
 else:
@@ -27,11 +29,11 @@ else:
         if productivityScore <= 199:
             employeeBonus=100
         else:
-            if productivityScore >= 200:
-                employeeBonus=200
+            employeeBonus=200
+                
 #tests
 #print(str(productivityScore))
 #print(str(employeeBonus))
 #output statements here
 print("Employee Name:" + employeeName)
-print("Employee Bonus: " + employeeBonus)
+print("Employee Bonus:$" + str(employeeBonus))
