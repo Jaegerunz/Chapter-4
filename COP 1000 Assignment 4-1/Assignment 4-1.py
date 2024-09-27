@@ -5,13 +5,13 @@ This program calculates prices for custom house signs.
 # Declare and initialize variables here.
 charge=0.00
 freeChars=5
-numChars=8
+numChars=20
 color="gold"
-woodType="oak"
+woodType="pine"
 
 charge=35.00
 # Write assignment and if statements here as appropriate.
-if numChars > 4:
+if numChars > 5:
     charge+=4*(numChars-freeChars)
 if color=="gold":
     charge+= 15.00
