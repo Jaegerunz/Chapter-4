@@ -24,7 +24,7 @@ if productivityScore <=30:
     employeeBonus=50.00
 else:
     if productivityScore <= 69:
-        employeeBons=75.00
+        employeeBonus=75.00
     else:
         if productivityScore <= 199:
             employeeBonus=100
